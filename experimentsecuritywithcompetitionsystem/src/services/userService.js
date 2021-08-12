@@ -229,8 +229,8 @@ module.exports.createOneEmailInvitation =  (userData,recipientName, recipientEma
     from: `${userData.fullname}<${userData.email}>`, // sender address
     to: recipientEmail, // list of receivers
     subject: "Hello from Bee competition system admin", // Subject line
-    text: `Hi ${recipientName} You have been invited by your friend, ${userData.fullname} to participate in a competition at http://localhost:3001`, // plain text body
-    html: `Hi ${recipientName} You have been invited by your friend, ${userData.fullname} to participate in a competition at http://localhost:3001`, // html body
+    text: `Hi ${recipientName} You have been invited by your friend, ${userData.fullname} to participate in a competition at http://ec2-44-197-94-162.compute-1.amazonaws.com:3001`, // plain text body
+    html: `Hi ${recipientName} You have been invited by your friend, ${userData.fullname} to participate in a competition at http://ec2-44-197-94-162.compute-1.amazonaws.com:3001`, // html body
   });
   resolve({status:'success',description:'Email sent'});
 }catch(error){

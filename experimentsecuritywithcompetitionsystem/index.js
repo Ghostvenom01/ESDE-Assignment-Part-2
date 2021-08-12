@@ -81,5 +81,5 @@ router.use((err, req, res, next) => {
 
 app.listen(PORT, err => {
     if (err) return console.log(`Cannot Listen on PORT: ${PORT}`);
-    console.log(`Server is Listening on: http://localhost:${PORT}/`);
+    console.log(`Server is Listening on: http://ec2-44-197-94-162.compute-1.amazonaws.com:${PORT}/`);
 });

@@ -22,5 +22,5 @@ node index.js
 
 # Usage
 
-By default application uses 5000 port. You can access app via http://localhost:5000
+By default application uses 5000 port. You can access app via http://ec2-44-197-94-162.compute-1.amazonaws.com:5000
 
